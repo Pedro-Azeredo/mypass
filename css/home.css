@@ -183,11 +183,11 @@ h3 {
 }
 
 .pq {
-  height: 736px;
+  max-width: 100%;
 }
 
 .pq img {
   margin-top: 87px;
   aspect-ratio: 16/9;
-  max-height: 736px;
+  max-width: 100%;
 }
