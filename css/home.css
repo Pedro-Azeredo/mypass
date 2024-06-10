@@ -3,7 +3,6 @@
   flex-direction: column;
   align-items: center;
 }
-
 .nav {
   margin: 0 auto;
   height: 64px;
@@ -17,7 +16,6 @@
   align-items: center;
   color: white;
 }
-
 .logo {
   margin-left: 40px;
   margin-right: 100px;
@@ -29,32 +27,26 @@
   max-width: 100%;
   cursor: pointer;
 }
-
 .nav-itens {
   list-style: none;
   display: flex;
 }
-
 .nav ul li {
   margin-left: 35px;
   /* font-weight: 200; */
   cursor: pointer;
 }
-
 .nav ul li:hover {
   text-decoration: solid underline white 3px;
   scale: 1.1;
   transition: all 0.2s ease-in-out;
 }
-
 .registrar {
   margin-left: 590px;
 }
-
 .registrar p {
   cursor: pointer;
 }
-
 .btn-nav {
   margin-left: 45px;
   border-radius: 9999px;
@@ -64,42 +56,35 @@
   border: none;
   cursor: pointer;
 }
-
 .btn-nav:hover {
   background-color: #5446a9;
   color: white;
   scale: 1.1;
   transition: all 0.2s ease-in-out;
 }
-
 .section-1 {
   width: 1410px;
   height: 675px;
   display: flex;
 }
-
 .esq,
 .dir {
   height: 100%;
   padding-top: 3rem;
 }
-
 h3 {
   color: #555;
   font-size: 65px;
 }
-
 .esq {
   width: 573px;
   background-color: white;
   padding-top: 9rem;
   padding-left: 25px;
 }
-
 .dif {
   color: #321c61;
 }
-
 .bottom {
   margin-top: 17px;
   width: 100%;
@@ -109,24 +94,21 @@ h3 {
   align-items: center;
   justify-content: flex-start;
 }
-
 .more {
   height: 54px;
   display: flex;
   align-items: center;
 }
-
 .more span {
   font-weight: 600;
   cursor: pointer;
 }
-
 .more img {
   margin-left: 10px;
 }
-
 .more:hover {
   filter: grayscale(1);
+  transform: translateX(15px);
   transition: all 0.2s ease-in-out;
 }
 .btn {
@@ -144,16 +126,13 @@ h3 {
   background-color: #5446a9;
   transition: all 0.2s ease-in-out;
 }
-
 .dir {
   width: 837px;
 }
-
 .video {
   width: 820px;
   aspect-ratio: 16/9;
 }
-
 .banner {
   height: 172px;
   width: 100%;
@@ -164,35 +143,14 @@ h3 {
   justify-content: center;
   font-size: 48px;
 }
-
-.chat {
-  position: sticky;
-  bottom: 10px;
-  margin-right: 10px;
-  z-index: 1;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.btn-chat {
-  border-radius: 100%;
-  padding: 20px;
-  background-color: #321c61;
-  border: none;
-  cursor: pointer;
-  box-shadow: 0px 0px 2px #0f0f0f;
-}
-
 .pq {
   max-width: 100%;
 }
-
 .pq img {
   margin-top: 87px;
   aspect-ratio: 16/9;
   max-width: 100%;
 }
-
 .section-2 {
   width: 100%;
   height: 736px;
@@ -204,7 +162,6 @@ h3 {
   align-items: center;
   flex-direction: column;
 }
-
 .title {
   width: 1410px;
   height: 180px;
@@ -215,7 +172,6 @@ h3 {
 .title p {
   font-size: 50px;
 }
-
 .fundo {
   width: 1410px;
   height: 522px;
@@ -226,7 +182,6 @@ h3 {
   justify-content: flex-start;
   color: #321c61;
 }
-
 .card {
   width: 400px;
   height: 190px;
@@ -235,19 +190,107 @@ h3 {
   padding: 20px;
   cursor: pointer;
 }
-
 .card:hover {
   filter: grayscale(1);
   scale: 1.1;
+  /* transform: translateY(30px); */
   transition: all 0.2s ease-in-out;
 }
-
 .card h5 {
   font-weight: 600;
   margin: 0;
 }
-
 .card p {
   font-weight: 200;
   font-size: 15px;
+}
+.section-3 {
+  background-color: black;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+.container3 {
+  width: 1410px;
+  height: 100%;
+  color: #bfbfbf;
+  display: flex;
+}
+.esquerda {
+  width: 30%;
+  margin-top: 80px;
+  padding-left: 25px;
+}
+.esquerda img {
+  margin-bottom: 20px;
+}
+.esquerda p {
+  padding: 5px;
+}
+.redes {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.redes li {
+  margin-right: 10px;
+}
+.redes li:hover {
+  scale: 1.1;
+  transform: rotate3d(0, 1, 0, 360deg);
+  transition: 0.5s ease-in-out;
+}
+
+.direita {
+  margin-top: 80px;
+  width: 70%;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+.wrapper ul {
+  list-style: none;
+}
+.wrapper ul li {
+  padding: 5px;
+  cursor: pointer;
+}
+.wrapper ul p {
+  padding: 5px;
+}
+.wrapper ul li:hover {
+  transform: translateX(5px);
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+.normal {
+  color: white;
+}
+.anormal {
+  color: #ff9800;
+}
+.anormal:hover {
+  color: #321c61;
+  transition: all 0.2s ease-in-out;
+}
+.chat {
+  padding: 10px 0 10px 0;
+  position: sticky;
+  bottom: 10px;
+  margin-right: 10px;
+  z-index: 1;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.btn-chat {
+  border-radius: 100%;
+  padding: 20px;
+  background-color: #321c61;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 0px 2px #0f0f0f;
 }
