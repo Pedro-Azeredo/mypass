@@ -1,0 +1,193 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav {
+  margin: 0 auto;
+  height: 64px;
+  width: 1410px;
+  background-color: #321c61;
+  z-index: 1;
+  border-radius: 9999px;
+  position: sticky;
+  top: 20px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.logo {
+  margin-left: 40px;
+  margin-right: 100px;
+  height: 100%;
+  max-width: 124px;
+  display: flex;
+}
+.logo img {
+  max-width: 100%;
+  cursor: pointer;
+}
+
+.nav-itens {
+  list-style: none;
+  display: flex;
+}
+
+.nav ul li {
+  margin-left: 35px;
+  /* font-weight: 200; */
+  cursor: pointer;
+}
+
+.nav ul li:hover {
+  color: #5446a9;
+  transition: all 0.2s ease-in-out;
+}
+
+.registrar {
+  margin-left: 590px;
+}
+
+.registrar p {
+  cursor: pointer;
+}
+
+.btn-nav {
+  margin-left: 45px;
+  border-radius: 9999px;
+  padding: 8px 40px;
+  color: #321c61;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-nav:hover {
+  background-color: #5446a9;
+  color: white;
+  scale: 1.1;
+  transition: all 0.2s ease-in-out;
+}
+
+.section-1 {
+  width: 1410px;
+  height: 675px;
+  display: flex;
+}
+
+.esq,
+.dir {
+  height: 100%;
+  padding-top: 3rem;
+}
+
+h3 {
+  color: #555;
+  font-size: 65px;
+}
+
+.esq {
+  width: 573px;
+  background-color: white;
+  padding-top: 9rem;
+  padding-left: 25px;
+}
+
+.dif {
+  color: #321c61;
+}
+
+.bottom {
+  margin-top: 17px;
+  width: 100%;
+  font-size: 20px;
+  color: #321c61;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.more {
+  height: 54px;
+  display: flex;
+  align-items: center;
+}
+
+.more span {
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.more img {
+  margin-left: 10px;
+}
+
+.more:hover {
+  filter: grayscale(1);
+  transition: all 0.2s ease-in-out;
+}
+.btn {
+  border-radius: 9999px;
+  padding: 12px 40px;
+  font-size: 20px;
+  margin-right: 2.7rem;
+  color: white;
+  background-color: #321c61;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover {
+  scale: 1.1;
+  background-color: #5446a9;
+  transition: all 0.2s ease-in-out;
+}
+
+.dir {
+  width: 837px;
+}
+
+.video {
+  width: 820px;
+  aspect-ratio: 16/9;
+}
+
+.banner {
+  height: 172px;
+  width: 100%;
+  background-color: #321c61;
+  color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+}
+
+.chat {
+  position: sticky;
+  bottom: 10px;
+  margin-right: 10px;
+  z-index: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-chat {
+  border-radius: 100%;
+  padding: 20px;
+  background-color: #321c61;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 0px 2px #0f0f0f;
+}
+
+.pq {
+  height: 736px;
+}
+
+.pq img {
+  margin-top: 87px;
+  aspect-ratio: 16/9;
+  max-height: 736px;
+}
