@@ -42,7 +42,8 @@
 }
 
 .nav ul li:hover {
-  color: #5446a9;
+  text-decoration: solid underline white 3px;
+  scale: 1.1;
   transition: all 0.2s ease-in-out;
 }
 
@@ -190,4 +191,63 @@ h3 {
   margin-top: 87px;
   aspect-ratio: 16/9;
   max-width: 100%;
+}
+
+.section-2 {
+  width: 100%;
+  height: 736px;
+  background-color: #f5f5f5;
+  margin-top: 87px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  width: 1410px;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+}
+.title p {
+  font-size: 50px;
+}
+
+.fundo {
+  width: 1410px;
+  height: 522px;
+  padding-left: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-evenly; */
+  justify-content: flex-start;
+  color: #321c61;
+}
+
+.card {
+  width: 400px;
+  height: 190px;
+  font-size: 25px;
+  margin-right: 55px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.card:hover {
+  filter: grayscale(1);
+  scale: 1.1;
+  transition: all 0.2s ease-in-out;
+}
+
+.card h5 {
+  font-weight: 600;
+  margin: 0;
+}
+
+.card p {
+  font-weight: 200;
+  font-size: 15px;
 }
