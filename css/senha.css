@@ -67,6 +67,10 @@ input:focus {
   background-color: #321c61;
   transition: all 0.3s ease-in-out;
 }
+.btn-olhos img {
+  padding: 1px 8px;
+}
+
 .btn-olhos img:hover {
   filter: invert();
 }
@@ -113,7 +117,9 @@ input:focus {
 }
 
 .box-dir {
-  height: 700px;
+  /* height: 700px; */
+  min-height: 537px;
+  max-height: 650px;
   width: 600px;
   background-color: white;
   border-radius: 40px;
