@@ -10,7 +10,7 @@
   background-color: #321c61;
   z-index: 1;
   border-radius: 9999px;
-  position: sticky;
+  /* position: sticky; */
   top: 20px;
   display: flex;
   align-items: center;
@@ -32,17 +32,14 @@
   display: flex;
 }
 .nav ul li {
-  margin-left: 35px;
   /* font-weight: 200; */
   cursor: pointer;
 }
-a {
+.nav a {
   margin-left: 35px;
   display: inline-block;
 }
-
-.nav ul li:hover,
-a:hover {
+.nav a:hover {
   text-decoration: solid underline white 3px;
   scale: 1.1;
   transition: all 0.2s ease-in-out;
@@ -58,7 +55,6 @@ a:hover {
   scale: 1.1;
   transition: all 0.2s ease-in-out;
 }
-
 .btn-nav {
   margin-left: 45px;
   border-radius: 9999px;

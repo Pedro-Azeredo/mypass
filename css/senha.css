@@ -1,0 +1,123 @@
+.container-senhas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+.box {
+  width: 1410px;
+  height: 847px;
+  display: flex;
+  color: #321c61;
+  align-items: center;
+  background-color: #321c61;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  border-radius: 40px;
+}
+.box-esq {
+  width: max-content;
+  background-color: white;
+  border-radius: 40px;
+  padding: 40px 40px;
+  display: flex;
+  flex-direction: column;
+}
+.box-esq p {
+  margin-top: 10px;
+}
+.box-esq input {
+  margin-top: 10px;
+}
+input {
+  border: none;
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  padding: 5px;
+  color: #321c61;
+}
+input:focus {
+  color: #321c61;
+  border-color: #321c61;
+  outline: 0;
+}
+.div-senha {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input-senha {
+  width: 245px;
+}
+.btn-olhos {
+  margin-top: 10px;
+  border: none;
+  background-color: #d9d9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  width: 40px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.btn-olhos:hover {
+  background-color: #321c61;
+  transition: all 0.3s ease-in-out;
+}
+.btn-olhos img:hover {
+  filter: invert();
+}
+
+.btn-gerar-senha {
+  margin-top: 30px;
+  border: none;
+  background-color: #d9d9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  height: 30px;
+  color: #321c61;
+  font-size: 16px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.btn-gerar-senha:hover {
+  background-color: #321c61;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+.texto {
+  display: flex;
+  justify-content: space-between;
+}
+.range {
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.input-range {
+  width: 100%;
+  color: #321c61;
+  accent-color: #321c61;
+  cursor: pointer;
+}
+.input-range:focus {
+  outline: 0;
+  box-shadow: 0;
+  accent-color: #321c61;
+}
+
+.box-dir {
+  height: 700px;
+  width: 600px;
+  background-color: white;
+  border-radius: 40px;
+  padding: 40px 40px;
+  display: flex;
+  flex-direction: column;
+}

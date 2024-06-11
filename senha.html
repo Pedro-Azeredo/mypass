@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Meu site</title>
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/style.css" />
+    <title>Minhas Senhas</title>
   </head>
   <body id="inicio">
     <nav class="nav" >
@@ -18,7 +18,7 @@
         <img src="img/logo.svg" onclick=""/>
       </div>
       <ul class="nav-itens">
-        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="index.html">Inicio</a></li>
         <li><a href="senha.html">Minhas senhas</a></li>
         <li"><a href="#suporte">Suporte</a></li>
       </ul>
@@ -27,82 +27,47 @@
       </div>
       <button class="btn-nav">Login</button>
     </nav>
-    <div class="container">
-      <div class="section-1">
-        <div class="esq">
-          <h3>Crie</h3>
-          <h3 class="dif">Sua Senha +</h3>
-          <h3>Forte</h3>
-          <div class="bottom">
-            <button class="btn">Comece agora</button>
-            <div class="more">
-              <span>Saiba mais</span>
-              <img src="img/aaa.svg" />
+      <div class="container-senhas">
+        <div class="box">
+          <div class="box-esq">
+            <h2>Adicionar Nova Senha</h2>
+            <h6>Preencha informações necessarias para cirar uma nova senha</h6>
+            <p>Nome da Rede</p>
+            <input class="input-rede">
+            <p>Login</p>
+            <input class="input-login">
+            <p>Senha</p>
+            <div class="div-senha">
+              <input class="input-senha" size="20">
+              <button class="btn-olhos">
+                <img src="img/olhos.svg">
+              </button>
             </div>
+            <button class="btn-gerar-senha">Gerar Senha</button>
+            <div class="range"> 
+              <div class="texto">
+                Tamanho <span>20</span>
+              </div>
+              <input type="range" class="input-range"  max="20" list="markers">
+              <datalist id="markers">
+                <option value="0"></option>
+                <option value="5"></option>
+                <option value="10"></option>
+                <option value="15"></option>
+                <option value="20"></option>
+              </datalist> 
+            </div>
+
+
+            
+
+            
           </div>
-        </div>
-        <div class="dir">
-          <img class="video" src="img/gif.gif" />
-        </div>
-      </div>
-      <div class="banner">
-        <h1>#SomosTodosMyPass</h1>
-      </div>
-      <div class="section-2">
-        <div class="title">
-          <p>Porque a Mypass?</p>
-        </div>
-        <div class="fundo">
-          <div id="1" class="card">
-            <img src="img/1.svg" />
-            <h5>Tecnologia Segura</h5>
-            <p>
-              Aproveitando fortes tecnologias de criptografia, o MyPass garante
-              que seus dados estejam bem protegidos e pertencentes SOMENTE por
-              você.
-            </p>
-          </div>
-          <div id="2" class="card">
-            <img src="img/2.svg" />
-            <h5>Recursos fáceis de usar</h5>
-            <p>
-              MyPass se concentra em se tornar simples de usar nossos produtos
-              eficazes que impulsionam a experiência digital de nossos usuários.
-            </p>
-          </div>
-          <div id="3" class="card">
-            <img src="img/3.svg" />
-            <h5>Multiplataforma</h5>
-            <p>
-              Nossos usuarios podem utilizar do nosso sistema por diferentes
-              meios, como computadores e dispositivos móveis
-            </p>
-          </div>
-          <div id="4" class="card">
-            <img src="img/4.svg" />
-            <h5>Escolhas Flexíveis</h5>
-            <p>
-              MyPass é a solução definitiva de proteção de dados, atendendo
-              pessoas físicas e jurídicas e garantindo a segurança dos dados no
-              mundo digital.
-            </p>
-          </div>
-          <div id="5" class="card">
-            <img src="img/5.svg" />
-            <h5>Código Aberto</h5>
-            <p>
-              Agradecemos qualquer feedback, relatório de bugs e informações de
-              código pelos usuários como o compromisso de construir soluções
-              confiáveis ​​e de longo prazo.
-            </p>
-          </div>
-          <div id="6" class="card">
-            <img src="img/6.svg" />
-            <h5>Suporte Responsável</h5>
-            <p>
-              MyPass tem uma equipe de suporte disponível 24/7 para monitorar e
-              responder oportunamente a todos os problemas.
-            </p>
+          <div class="box-dir">
+              <h2>Minhas Senhas</h2>
+              <h6>Visualize as suas senhas criadas aqui</h6>
+
+
           </div>
         </div>
       </div>
@@ -160,7 +125,11 @@
           </div>
         </div>
       </div>
-    </div>
-    <script src="script.js"></script>
+    
+
+
+
+
+    
   </body>
 </html>
