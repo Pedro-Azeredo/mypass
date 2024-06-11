@@ -2,11 +2,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
 }
 .box {
   width: 1410px;
-  height: 847px;
+  padding: 100px 0;
   display: flex;
   color: #321c61;
   align-items: center;
@@ -59,7 +58,8 @@ input:focus {
   align-items: center;
   border-radius: 5px;
   width: 40px;
-  height: 30px;
+  /* height: 30px; */
+  padding-top: 3px;
   cursor: pointer;
 }
 
@@ -68,7 +68,8 @@ input:focus {
   transition: all 0.3s ease-in-out;
 }
 .btn-olhos img {
-  padding: 1px 8px;
+  padding: 0 8px;
+  margin-bottom: 2px;
 }
 
 .btn-olhos img:hover {
@@ -83,7 +84,7 @@ input:focus {
   justify-content: center;
   align-items: center;
   border-radius: 5px;
-  height: 30px;
+  padding: 3px 0;
   color: #321c61;
   font-size: 16px;
   margin-bottom: 30px;
@@ -103,10 +104,8 @@ input:focus {
   border-radius: 5px;
   padding: 15px;
 }
-
 .input-range {
   width: 100%;
-  color: #321c61;
   accent-color: #321c61;
   cursor: pointer;
 }
@@ -118,7 +117,7 @@ input:focus {
 
 .box-dir {
   /* height: 700px; */
-  min-height: 537px;
+  min-height: 545px;
   max-height: 650px;
   width: 600px;
   background-color: white;
