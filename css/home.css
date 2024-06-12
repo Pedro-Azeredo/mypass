@@ -152,7 +152,7 @@ h3 {
   font-size: 15px;
 }
 
-@media (max-width: 1366px) {
+@media (max-width: 1600px) {
   .section-1 {
     width: 1200px;
   }
