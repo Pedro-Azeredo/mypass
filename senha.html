@@ -33,34 +33,58 @@
             <h2>Adicionar Nova Senha</h2>
             <h6>Preencha informações necessarias para cirar uma nova senha</h6>
             <p>Nome da Rede</p>
-            <input class="input-rede">
+            <input class="input-rede" type="text">
             <p>Login</p>
-            <input class="input-login">
+            <input class="input-login" type="text">
             <p>Senha</p>
             <div class="div-senha">
-              <input class="input-senha" size="20">
+              <input class="input-senha" size="20" type="text">
               <button class="btn-olhos">
                 <img src="img/olhos.svg">
               </button>
             </div>
-            <button class="btn-gerar-senha">Gerar Senha</button>
+            <button class="btn-gerar-senha" onclick="novoEspaco()">Gerar Senha</button>
             <div class="range"> 
               <div class="texto">
-                Tamanho <span>20</span>
+                Tamanho <span class="size">10</span>
               </div>
-              <input type="range" class="input-range"  max="20" list="markers">
+              <input type="range" class="input-range"  min="1" max="20" list="markers" value="10">
               <datalist id="markers">
-                <option value="0"></option>
+                <!-- <option value="1"></option>
                 <option value="5"></option>
                 <option value="10"></option>
                 <option value="15"></option>
-                <option value="20"></option>
+                <option value="20"></option> -->
               </datalist> 
             </div>
           </div>
           <div class="box-dir">
               <h2>Minhas Senhas</h2>
               <h6>Visualize as suas senhas criadas aqui</h6>
+              <ol class="lista">
+                <!-- <li>
+                  <p class="espaco-rede">Nome da Rede</p>
+                  <div class="espaco">
+                    <div class="espaco-esquerda">
+                      <p class="espaco-login">Login</p>
+                      <input type="text" class="espaco-login-exibir" value="awsha67sda">
+                    </div>
+                    <div class="espaco-direita">
+                      <p class="espaco-senha">Senha</p>
+                      <input type="text" class="espaco-senha-exibir" value="awsha67sda">
+                    </div>
+                    <div class="espaco-btn">
+                      <button class="espaco-olho">
+                        <img src="img/olhos.svg">
+                      </button>
+                      <button class="espaco-lixeira">
+                        <img src="img/lixeira.svg">
+                      </button>
+                    </div>
+                  </div>
+                </li> -->
+
+              </ol>
           </div>
         </div>
       </div>
@@ -118,11 +142,6 @@
           </div>
         </div>
       </div>
-    
-
-
-
-
-    
+    <script src="script.js"></script>
   </body>
 </html>

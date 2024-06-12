@@ -28,7 +28,7 @@
 .box-esq input {
   margin-top: 10px;
 }
-input {
+input[type='text'] {
   border: none;
   background-color: #d9d9d9;
   border-radius: 5px;
@@ -49,18 +49,19 @@ input:focus {
 .input-senha {
   width: 245px;
 }
+button {
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #d9d9d9;
+}
 .btn-olhos {
   margin-top: 10px;
-  border: none;
-  background-color: #d9d9d9;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 5px;
   width: 40px;
-  /* height: 30px; */
   padding-top: 3px;
-  cursor: pointer;
 }
 
 .btn-olhos:hover {
@@ -119,12 +120,58 @@ input:focus {
   /* height: 700px; */
   min-height: 545px;
   max-height: 650px;
-  width: 600px;
+  width: 648px;
   background-color: white;
   border-radius: 40px;
-  padding: 40px 40px;
+  padding: 40px 40px 40px 40px;
   display: flex;
   flex-direction: column;
+}
+.box-dir h6 {
+  margin-bottom: 5px;
+}
+.box-dir ol {
+  list-style: none;
+}
+.box-dir ol li {
+  display: flex;
+  flex-direction: column;
+}
+
+.espaco {
+  display: flex;
+  gap: 10px;
+}
+.espaco-rede {
+  font-size: 20px;
+}
+.espaco-login,
+.espaco-senha {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+.espaco-btn {
+  display: flex;
+  align-items: flex-end;
+  gap: 5px;
+}
+.espaco-btn button {
+  width: 40px;
+  height: 30px;
+}
+.espaco-olho {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.espaco-lixeira {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.espaco-login-exibir {
+  width: 293px;
 }
 
 @media (max-width: 1600px) {
