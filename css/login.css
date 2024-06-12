@@ -1,0 +1,58 @@
+.wrapit {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.container-login {
+  width: 400px;
+  background-color: #321c61;
+  padding: 40px;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.container-login h1 {
+  font-size: 80px;
+  color: white;
+}
+
+.login-login input,
+.senha input {
+  border: none;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+  color: #321c61;
+  color: #321c61;
+  padding: 5px;
+  width: 200px;
+}
+
+.entrar {
+  padding: 5px 20px;
+
+  font-weight: 600;
+  color: white;
+  background-color: #5446a9;
+}
+.entrar:hover {
+  scale: 1.1;
+  color: #321c61;
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.esqueceu {
+  color: white;
+}
+.esqueceu:hover {
+  color: #5446a9;
+  transition: all 0.3s ease-in-out;
+}

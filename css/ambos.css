@@ -33,12 +33,12 @@
   cursor: pointer;
 }
 
-.nav a {
+.mudar {
   margin-left: 35px;
   display: inline-block;
 }
 
-.nav a:hover {
+.mudar:hover {
   text-decoration: solid underline white 3px;
   scale: 1.1;
   transition: all 0.2s ease-in-out;
@@ -172,7 +172,8 @@
   padding: 5px;
 }
 
-.wrapper ul li:hover {
+.wrapper ul li:hover,
+.wrapper a:hover {
   transform: translateX(5px);
   color: white;
   transition: all 0.2s ease-in-out;
