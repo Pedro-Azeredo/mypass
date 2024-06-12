@@ -28,7 +28,8 @@
 .box-esq input {
   margin-top: 10px;
 }
-input[type='text'] {
+input[type='text'],
+input[type='password'] {
   border: none;
   background-color: #d9d9d9;
   border-radius: 5px;
@@ -118,8 +119,7 @@ button {
 
 .box-dir {
   /* height: 700px; */
-  min-height: 545px;
-  max-height: 650px;
+  height: 556px;
   width: 648px;
   background-color: white;
   border-radius: 40px;
@@ -172,6 +172,21 @@ button {
 
 .espaco-login-exibir {
   width: 293px;
+}
+.espaco-olho:hover,
+.espaco-lixeira:hover {
+  background-color: #321c61;
+  transition: all 0.3s ease-in-out;
+}
+.espaco-olho img:hover,
+.espaco-lixeira img:hover {
+  filter: invert();
+}
+.espaco-olho img {
+  padding: 4px 8px;
+}
+.espaco-lixeira img {
+  padding: 6px 13px;
 }
 
 @media (max-width: 1600px) {
