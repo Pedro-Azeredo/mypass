@@ -82,7 +82,7 @@ h3 {
 }
 
 .video {
-  width: 820px;
+  width: 100%;
   aspect-ratio: 16/9;
 }
 
@@ -150,4 +150,17 @@ h3 {
 .card p {
   font-weight: 200;
   font-size: 15px;
+}
+
+@media (max-width: 1366px) {
+  .section-1 {
+    width: 1200px;
+  }
+  .esq {
+    width: 487px;
+  }
+  .dir {
+    width: 711px;
+    padding-top: 144px;
+  }
 }

@@ -1,10 +1,10 @@
 .nav {
   margin: 0 auto;
-  height: 64px;
+  padding: 14px 0;
   width: 1410px;
   background-color: #321c61;
   z-index: 1;
-  border-radius: 9999px;
+  border-radius: 100px;
   position: sticky;
   top: 20px;
   display: flex;
@@ -15,7 +15,6 @@
 .logo {
   margin-left: 40px;
   margin-right: 100px;
-  height: 100%;
   max-width: 124px;
   display: flex;
 }
@@ -31,7 +30,6 @@
 }
 
 .nav ul li {
-  /* font-weight: 200; */
   cursor: pointer;
 }
 
@@ -47,6 +45,8 @@
 }
 
 .registrar {
+  display: flex;
+  justify-content: flex-end;
   margin-left: 590px;
 }
 
@@ -105,7 +105,7 @@
 /* footer */
 .section-3 {
   background-color: black;
-  width: 100%;
+  width: ;
   height: 500px;
   display: flex;
   justify-content: center;
@@ -189,4 +189,18 @@
 .anormal:hover {
   color: #321c61;
   transition: all 0.2s ease-in-out;
+}
+
+@media (max-width: 1366px) {
+  .nav {
+    width: 1200px;
+  }
+  .registrar {
+    display: flex;
+    justify-content: flex-end;
+    /* margin-left: 590px; */
+    margin-left: 380px;
+  }
+  .chat {
+  }
 }
