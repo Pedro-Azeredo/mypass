@@ -31,3 +31,7 @@ CSS3: Estilos e design responsivo
 JavaScript (ES6+): Funcionalidades dinâmicas, como geração de senha e armazenamento local
 
 LocalStorage: Para armazenar as senhas de forma segura no navegador
+
+
+
+Agora o MyPass está configurado para facilitar o gerenciamento de senhas, sem complicação. Qualquer dúvida ou sugestão, pode abrir uma issue aqui no repositório!
